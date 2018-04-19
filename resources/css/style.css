@@ -3,22 +3,26 @@ body {
   font-family: "Veranda", Sans-serif;
   }
 
+h1,
+.download,
+.travel,
+#likes {
+  text-align: center;
+}
+
 h1 {
   font-weight: normal;
   font-size: 50px;
   color: #ffffff;
-  text-align: center;
 }
 
 .download {
-  text-align: center;
   color: Aquamarine;
   font-size: 16px;
   text-decoration: underline;
 }
 
 .travel {
-  text-align: center;
   font-weight: 300;
   font-size: 42px;
   color: white;
@@ -27,12 +31,13 @@ h1 {
 #likes {
   font-size: 21px;
   color: gray;
-  text-align: center;
 }
 
-footer {
-  color; gray;
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
   text-align: right;
+  width: 100%;
+  color: gray;
   }
-
-}
