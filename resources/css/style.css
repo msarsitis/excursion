@@ -1,13 +1,6 @@
 body {
   background-color: black;
-  }
-
-h1,
-p,
-.download,
-.travel,
-#likes  {
-  font-family: Veranda;
+  font-family: "Veranda", Sans-serif;
   }
 
 h1 {
@@ -40,9 +33,6 @@ h1 {
 footer {
   color; gray;
   text-align: right;
-  font-family: Veranda
-  position: absolute;
-  right: 0;bottom:0;left:0;
   }
 
 }
