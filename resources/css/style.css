@@ -2,13 +2,9 @@ body {
   background-color: black;
 }
 
-h1,
-p,
-.download,
-.travel,
-#likes
- {
-  font-family: veranda;
+h1, p, .download, .travel, #likes  {
+  font-family: Veranda;
+  align-content: center;
 }
 
 h1 {
@@ -20,13 +16,12 @@ h1 {
 
 .download {
   text-align: center;
-  color: aquamarine;
+  color: Aquamarine;
   font-size: 16px;
 }
 
 .travel {
   text-align: center;
-  font-family: veranda;
   font-weight: 300;
   font-size: 42px;
   color: white;
@@ -35,4 +30,11 @@ h1 {
 #likes {
   font-size: 21px;
   color: gray;
+  text-align: center;
+}
+
+footer {
+  color; gray;
+  text-align: right;
+  font-family: Veranda
 }
