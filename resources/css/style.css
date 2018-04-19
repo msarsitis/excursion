@@ -1,11 +1,14 @@
 body {
   background-color: black;
-}
+  }
 
-h1, p, .download, .travel, #likes  {
+h1,
+p,
+.download,
+.travel,
+#likes  {
   font-family: Veranda;
-  align-content: center;
-}
+  }
 
 h1 {
   font-weight: normal;
@@ -18,6 +21,7 @@ h1 {
   text-align: center;
   color: Aquamarine;
   font-size: 16px;
+  text-decoration: underline;
 }
 
 .travel {
@@ -37,4 +41,8 @@ footer {
   color; gray;
   text-align: right;
   font-family: Veranda
+  position: absolute;
+  right: 0;bottom:0;left:0;
+  }
+
 }
